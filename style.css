@@ -1,0 +1,46 @@
+body{
+    margin: 3em;
+    border: 5em;
+    background-color: azure;
+}
+
+.container{
+    min-height: 100;
+    color: rgb(34, 32, 32);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8%;
+    border-radius: 16px;
+    text-align: justify;
+    background-color: rgb(165, 165, 161);
+}
+
+.top{
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.article{
+    padding-bottom: 3em;
+}
+
+.copywriting{
+    text-align: center;
+    font-size: larger;
+}
+.bold{
+    font-weight: 500;
+}
+sup{
+    font-size: small;
+}
+
+@media only screen and (max-width: 450px) {
+    body{
+        margin: 2em;
+        border: 2em;
+    }
+    .top{
+        font-size: 2em;
+    }
+  }
